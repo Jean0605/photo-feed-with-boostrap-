@@ -6,6 +6,7 @@
     <title>Bootstrap demo</title>
     <script src="https://kit.fontawesome.com/d3657d806a.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
 <!-- navbar start -->
@@ -57,25 +58,59 @@
 <!-- navbar end -->
 <br>
 <!-- navpills -->
-<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+<ul class="justify-content-center nav nav-pills mb-3" id="pills-tab" role="tablist">
     <li class="nav-item" role="presentation">
-      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-grip"></i></button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Disabled</button>
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa-solid fa-square"></i></button>
     </li>
   </ul>
-  <div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">...</div>
+  <!-- content -->
+  <div class=" tab-content" id="pills-tabContent">
+    <!-- pill1 -->
+    <div class="tab-pane fade show active text-center" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <div class="columns">
+            <img src="https://www.committedtocanine.com/data/showcasephoto/800/23517.jpg" alt="">
+          </div>
+          <div class="columns">
+           <img src="https://www.committedtocanine.com/data/showcasephoto/800/23517.jpg" alt="">
+          </div>
+          <div class="columns">
+           <img src="https://www.committedtocanine.com/data/showcasephoto/800/23517.jpg" alt="">
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="columns">
+           <img src="https://www.committedtocanine.com/data/showcasephoto/800/23517.jpg" alt="">
+          </div>
+          <div class="columns">
+           <img src="https://www.committedtocanine.com/data/showcasephoto/800/23517.jpg" alt="">
+          </div>
+          <div class="columns">
+           <img src="https://www.committedtocanine.com/data/showcasephoto/800/23517.jpg" alt="">
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="columns">
+           <img src="https://www.committedtocanine.com/data/showcasephoto/800/23517.jpg" alt="">
+          </div>
+          <div class="columns">
+           <img src="https://www.committedtocanine.com/data/showcasephoto/800/23517.jpg" alt="">
+          </div>
+          <div class="columns">
+           <img src="https://www.committedtocanine.com/data/showcasephoto/800/23517.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+   <!-- pill2 -->
     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
   </div>
 <!-- navpills end -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
